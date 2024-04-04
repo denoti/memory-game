@@ -1,0 +1,12 @@
+img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -1,0 +1,7 @@
+body {
+  background-color: bisque;
+}
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+}

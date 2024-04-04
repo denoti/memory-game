@@ -1,0 +1,14 @@
+p:first-child span {
+    font-size: 20px;
+    color: rgba(12, 169, 231, 0.89);
+}
+p:last-child span {
+    font-size: 30px;
+    color: rgba(255, 1, 1, 0.89);
+}
+p:first-child{
+   margin-bottom: 0;
+}
+.scoreText {
+    margin-right: 10px;
+}

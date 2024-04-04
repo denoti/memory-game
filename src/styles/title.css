@@ -1,0 +1,4 @@
+.titleName {
+    display: flex;
+    flex-direction: column;
+}
