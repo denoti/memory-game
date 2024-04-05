@@ -1,9 +1,19 @@
+span {
+    border: 1px solid rgb(230, 162, 162);
+    border-radius: 3px;
+    box-shadow: 0 0 2px 3px white;
+    padding: 3px;
+}
+p {
+    text-align: right;
+}
+
 p:first-child span {
-    font-size: 20px;
+    font-size: 22px;
     color: rgba(12, 169, 231, 0.89);
 }
 p:last-child span {
-    font-size: 30px;
+    font-size: 27px;
     color: rgba(255, 1, 1, 0.89);
 }
 p:first-child{
@@ -12,3 +22,4 @@ p:first-child{
 .scoreText {
     margin-right: 10px;
 }
+

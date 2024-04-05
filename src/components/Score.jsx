@@ -1,14 +1,15 @@
+
 import '../styles/score.css'
 
-export default function Score () {
+export default function Score (props) {
   return (
     <>
       <div className='scoreText'>
         <p>
-          Score <span>12</span>
+          Score <span>{props.score}</span>
         </p>
         <p>
-          Best Score <span>12</span>
+          Best Score <span>{props.bestScore}</span>
         </p>
       </div>
     </>

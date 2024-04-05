@@ -1,9 +1,18 @@
 .card {
-    display: grid;
-    place-content: center;
-    height: 160px;
-    width: 160px;
-    background-color: rgb(133, 165, 133);
-    border-radius: 5px;
-    padding: 5px;
+  display: grid;
+  place-content: center;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(133, 165, 133);
+  border-radius: 5px;
+  padding: 5px;
+  transition: .5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 3px green;
+}
+
+.card:active {
+    transform: scale(0.95);
 }
